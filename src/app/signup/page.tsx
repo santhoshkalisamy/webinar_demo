@@ -27,7 +27,7 @@ export default function Signup() {
     return (
         <div className="flex items-center justify-center min-h-screen bg-gray-50">
             <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6">
-                <h2 className="text-2xl font-bold text-center mb-4 text-teal-900">Register</h2>
+                <h2 className="text-2xl font-bold text-center mb-4 text-teal-900">Signup</h2>
                 <form onSubmit={handleSignup} className="space-y-4">
                     <div>
                         <label htmlFor="username" className="block text-sm font-medium text-gray-700">
